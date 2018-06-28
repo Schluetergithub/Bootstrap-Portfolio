@@ -2,42 +2,75 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Contact | Michael Schlueter</title>
-  <link rel="stylesheet" type="text/css" href="Responsive-PortfolioIndex.css">
+  <link rel="stylesheet" type="text/css" href="Bootstrap-Index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 
 <body>
 
   <header id="masthead">
     <div class="container">
-      <a href="index.html" id="logo">Michael Schlueter</a>
-      <nav>
-        <a href="file:///Users/Schlueter/Desktop/CBC_WORK/Basic-Portfolio2/index.html">About</a>
-        <a href="file:///Users/Schlueter/Desktop/CBC_WORK/Basic-Portfolio2/Portfolio.html">Portfolio</a>
-        <a href="file:///Users/Schlueter/Desktop/CBC_WORK/Basic-Portfolio2/contact.html">Contact</a>
-      </nav>
+
+      <div class="row">
+
+        <div class="col-md-6 col-sm-12">
+
+          <a href="index.html" id="logo">Michael Schlueter</a>
+        </div>
+
+        <div class="col-md-6 col-sm-12">
+
+          <nav>
+            <a href="file:///Users/Schlueter/Desktop/CBC_WORK/Basic-Portfolio2/index.html">About</a>
+            <a href="file:///Users/Schlueter/Desktop/CBC_WORK/Basic-Portfolio2/Portfolio.html">Portfolio</a>
+            <a href="file:///Users/Schlueter/Desktop/CBC_WORK/Basic-Portfolio2/contact.html">Contact</a>
+          </nav>
+
+        </div>
+
+      </div>
+
     </div>
   </header>
 
   <div id="main-container" class="container">
+    <div class="row"></div>
     <section class="main-section">
       <h1>Contact</h1>
 
       <form id="contact-form">
         <ul>
+
+          <div class="row">
+          <div class="col-md-12 col-sm-12">
           <li>
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="John Smith" required="required">
           </li>
+          </div>
+          </div>
+
+          <div class="row">
+          <div class="col-md-12 col-sm-12">
           <li>
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
           </li>
+          </div>
+          </div>
+
+          <div class="row">
+          <div class="col-md-12 col-sm-12">
           <li>
             <label for="message">Message</label>
             <textarea id="message" name="message" required="required"></textarea>
           </li>
+          </div>
+          </div>
+
         </ul>
         <input type="submit">
       </form>
@@ -48,7 +81,12 @@
 
   <footer>
     <div id="footer-container">
+    <div class="container">
+      <div class="row">
+
       Copyright &copy; 
+    </div>
+    </div>
     </div>
   </footer>
 </body>
